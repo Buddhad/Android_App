@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="always"
+        android:scrollbarSize="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15sp"
+                android:fontFamily="@font/alice"
+                android:gravity="center"
+                android:text="@string/head"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="-5sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginBottom="5sp"
+                android:fontFamily="@font/average"
+                android:text="@string/Web_dev_Line0"
+                android:textColor="#201818"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/average"
+                android:text="@string/Web_dev_Line1"
+                android:textColor="#201818"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/average"
+                android:text="@string/Web_dev_Line2"
+                android:textColor="#201818"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:fontFamily="@font/alice"
+                android:gravity="center"
+                android:onClick="NextActivity"
+                android:text="@string/title"
+                android:textColor="#201818"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/average"
+                android:text="@string/F_End0"
+                android:textColor="#201818"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15sp"
+                android:fontFamily="@font/average"
+                android:text="@string/F_End1"
+                android:textColor="#201818"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="-5sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/average"
+                android:onClick="Html"
+                android:text="@string/data1"
+                android:textColor="#201818"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="0sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/average"
+                android:onClick="Css"
+                android:text="@string/data2"
+                android:textColor="#201818"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="0sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/average"
+                android:onClick="JavaScript"
+                android:text="@string/data3"
+                android:textColor="#201818"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:fontFamily="@font/alice"
+                android:gravity="center"
+                android:text="@string/title2"
+                android:textColor="#201818"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginBottom="5sp"
+                android:fontFamily="@font/average"
+                android:text="@string/B_End0"
+                android:textColor="#201818"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="@font/average"
+                android:text="@string/B_End1"
+                android:textColor="#201818"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">WebDevlopmentHandbook</string>
+
+<!--    <string name="app_name">WebDevelopment</string>-->
+    <string name="head">WebDevelopment</string>
+    <string name="title">Front End Developer</string>
+    <string name="title2">Back End Developer</string>
+    <string name="data1">1. HTML</string>
+    <string name="data2">2. CSS</string>
+    <string name="data3">3. JavaScript</string>
+
+
+    <string name="Web_dev_Line0">Web development is the building and maintenance of websites. It’s the work that happens
+        behind the scenes to make a website look great, work fast and perform well with a seamless user experience.
+    </string>
+    <string name="Web_dev_Line1">Web developers, or ‘devs’, do this by using a variety of coding languages. The languages they
+        use depends on the types of tasks they are preforming and the platforms on which they are working.
+    </string>
+    <string name="Web_dev_Line2">The field of web development is generally broken down into front-end (the user-facing side)
+    and back-end (the server side). Let’s delve into the details.
+    </string>
+
+    <string name="F_End0">A front-end dev takes care of layout, design and interactivity using HTML, CSS and JavaScript.
+            They take an idea from the drawing board and turn it into reality.</string>
+
+    <string name="F_End1"> What you see and what you use, such as the visual aspect of the website, the drop down menus and the text, are all
+brought together by the front-end dev, who writes a series of programmes to bind and
+structure the elements, make them look good and add interactivity. These programmes are run through a browser.
+</string>
+    <string name="B_End0">The backend developer engineers what is going on behind the scenes. This is where the data is stored,
+and without this data, there would be no frontend. The backend of the web consists of the server
+that hosts the website, an application for running it and a database to contain the data.</string>
+
+    <string name="B_End1">The backend dev uses computer programmes to ensure that the server, the application and the database run smoothly
+together. This type of dev need to analyse what a company’s needs are and provide efficient programming solutions.
+To do all this amazing stuff they use a variety of server-side languages, like PHP, Ruby, Python and Java..
+</string>
+    <string name="down_Text">Optimizing the user experience.
+Using HTML, JavaScript and CSS to bring concepts to life.
+Developing and maintaining the user interface.
+Implementing design on mobile websites.
+Creating tools that improve site interaction regardless of the browser.
+Managing software workflow.
+Following SEO best practices.
+Fixing bugs and testing for usability.</string>
+
+    ***********HtMl Activity all String Text ********
+    <string name="Head_HTML">HTML</string>
+    <string name="Head_HTML2">HTML PageStructure</string>
+    <string name="HTML_logo">Logo</string>
+    <string name="HTML_Line0">HTML stands for HyperText Markup Language. It is used to design web pages using a markup language.</string>
+    <string name="HTML_Line1">HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages.
+A markup language is used to define the text document within tag which defines the structure of web pages.</string>
+    <string name="HTML_Line2">HTML is a markup language that is used by the browser to manipulate
+text, images, and other content to display it in the required format.</string>
+    <string name="Head_HTML1">Why to use HTML ?</string>
+
+    <string name="HTML_Line4">HTML helps to structure our website well. The way a skeleton system gives a structure to the human body
+in a similar manner HTML acts as a skeleton for a website, without it a website cannot be made. </string>
+    <string name="HTML_Line5">If you want to work as a Software Developer especially in the Web Development domain, then learning
+HTML is a must,because without knowledge of it you cannot build a website. </string>
+    <string name="HTML1">1. Base for creating websites: HTML is the basic necessity a developer should know while building
+a website from scratch.
+</string>
+    <string name="HTML2">2. Learn web development: HTML is the first step towards learning Web Development.
+Once you learn HTML, you can build simple, static websites very easily.</string>
+    <string name="HTML3">3.Can become freelancer: Since web development has the best scope in freelancing,
+therefore learning HTML will surely help you to get the best deals of website development in the market.</string>
+
+
+    *********** CSS Activity all String Text ********
+    <string name="Head_Css"> CSS</string>
+    <string name="CSS_logo">Logo</string>
+
+
+    *********** JavaScript Activity all String Text ********
+    <string name="Head_Js"> JavaScript</string>
+    <string name="JS_logo">Logo</string>
+</resources>
